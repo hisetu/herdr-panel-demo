@@ -1,0 +1,11 @@
+.DS_Store
+.tmp/
+node_modules/
+*.error
+mods/*/gpui-kit.d.ts
+mods/*/jsconfig.json
+# Screenshots contain unrelated terminal content and private project details.
+screenshots/
+archive/
+__pycache__/
+*.pyc

@@ -1,0 +1,10 @@
+{
+  "name": "herdr-panel-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules --test tests/*.test.js",
+    "check": "bash scripts/check.sh",
+    "setup:herdr": "python3 scripts/install.py"
+  }
+}
